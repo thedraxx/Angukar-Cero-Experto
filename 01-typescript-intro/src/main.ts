@@ -6,7 +6,10 @@ import { setupCounter } from './counter.ts'
 // import "./topics/02-object-interace.ts"
 // import "./topics/03-functions.ts"
 // import "./topics/04-homeworks.ts"
-import "05-basic-destructuring.ts"
+// import "05-basic-destructuring.ts"
+// import "./topics/06-functions-destructuring.ts"
+// import "./topics/07-import-export.ts"
+import "./topics/08-clases.ts"
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
