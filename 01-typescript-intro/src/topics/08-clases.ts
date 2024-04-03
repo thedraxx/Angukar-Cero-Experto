@@ -10,7 +10,8 @@ export class Person {
 }
 
 
-export class Hero extends Person {
+/**
+ * export class Hero extends Person {
 
     constructor(
         public alterEgo: string,
@@ -22,8 +23,32 @@ export class Hero extends Person {
 
 
 }
+ * 
+ * 
+ */
 
-const ironman = new Hero("ironman", 22, "Tony");
+
+export class Hero {
+
+
+
+    constructor
+    (
+        public alterEgo: string,
+        public age: number,
+        public realName: string,
+        public person: Person
+    ) 
+    {
+        
+    }
+
+
+}
+
+
+const person = new Person("Peter", 22);
+const ironman = new Hero("ironman", 22, "Tony", person);
 
 
 

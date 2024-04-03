@@ -9,7 +9,12 @@ import { setupCounter } from './counter.ts'
 // import "05-basic-destructuring.ts"
 // import "./topics/06-functions-destructuring.ts"
 // import "./topics/07-import-export.ts"
-import "./topics/08-clases.ts"
+//import "./topics/08-clases.ts"
+import "./topics/09-generics.ts"
+import "./topics/10-decoradores.ts"
+
+
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
